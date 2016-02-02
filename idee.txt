@@ -1,0 +1,10 @@
+Idee per eventuale roguelike originale:
+- potere mind control:
+  si prende possesso del corpo del mostro target e si usa come
+  se fosse il player
+- crafting:
+  terraria-minecraft style,
+- mining: 
+  muri pieni spaccabili con filoni di vari metalli/cristalli/gemme preziose
+  crystal garden: cristalli che crescono come vegetali
+- le casse di biscotti

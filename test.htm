@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jwerty.js"></script>
+		<script type="text/javascript">
+		
+		jwerty.key("[←-↓]/shift+w/w",function(e){
+			if (jwerty.is("shift+w",e))
+				alert("HOLA!");
+			$("body").append("premuto tasto "+e.keyCode+"<br/>");
+		});
+		
+		
+		</script>
+		<title>Test</title>
+	</head>
+	<body>
+		
+	</body>
+</html>

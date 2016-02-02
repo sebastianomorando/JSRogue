@@ -1,0 +1,44 @@
+  TODO:  
+- Le stanze non sempre sono sotto la vista (non si vede se dentro
+  ci sono mostri o oggetti)
+- il protagonista non dovrebbe poter vedere dietro gli angoli nei tunnel
+  soluzione semplice: nei tunnel il protagonista non vede spazi 3x3 come 
+  programmato ma vede a "croce": solo quello che ha a dx,sx,sopra,sotto
+  soluzione complicata: il player non pu� vedere attraverso le cose solide
+- mostri
+- statistiche/indicatori in basso:Level Hits, Str, Gold, Armor, Exp
+- contatore dei turni
+- Problema delle collisioni tra mostri: ogni volta che un mostro si muove segna la casella nella quale sta
+  per sportarsi in un array: il mostro che vuole spostarsi la volta successiva controlla che quella casella
+  non sia gi� stata opzionata.
+  
+  DONE:
+- 15/12/2011
+  Prime righe di codice scritte.
+- 20/12/2011
+  * Creata matrice divMat che contiene riferimenti ai div tiles,
+  e scritta funzione che disegna solo parte della mappa.
+  initDivMat() ----> crea e aggiunge al DOM i div tiles
+  drawMap(x1,y1,x2,y2) ---> disegna solo la parte compresa tra le coordinate
+  * Le stanze per essere meglio gestite devono essere oggetti, caraterizzati dalle coordinate
+  dell'angolo superiore sx e dell'angolo inferiore dx
+ - 26/12/2011
+   * Caricamento del livello da file strutturato come
+  23 righe di 80 caratteri che vengono convertite in matrice dal parser
+  alla fine del file le coordinate di ogni stanza in una struttura del tipo
+  Y1,X1,Y2,X2:Y1,X1,Y2,X2:Y1,X1,Y2,X2
+  * Codice riorganizzato in pi� file 
+ - 30/04/2012
+  aggiunta gestione degli item, per ora solo armor e weapon. aggiunti
+  hobgobling con chaseplayer
+  
+  OBBIETTIVO:
+  Creare un clone di Rogue con javascript
+  
+  OBBIETTIVI AGGIUNTIVI:
+- Interfaccia via mouse con inventario al mouseover appare l'azione corrispondente(es. quaff-read)
+  e il drop. Si potrebbe rendere il gioco tutto giocabile via mouse
+- Tiles animate (stile dungeons of dredmor)
+- Multiplayer
+
+  

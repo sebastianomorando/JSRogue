@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>  
+	<html>
+		<head>
+			<link rel='stylesheet' type='text/css' href='style.css' />
+			<script type='text/javascript' src='jquery.js'></script>
+			<script type='text/javascript' src='jwerty.js'></script>
+			<script type='text/javascript' src='dice.js'></script>
+			<script type='text/javascript' src='items.js'></script>
+			<script type='text/javascript' src='rogue.js'></script>
+			<script type='text/javascript' src='map.js'></script>
+			<script type='text/javascript' src='monster.js'></script>
+			<script type='text/javascript' src='level_parsing.js'></script>
+			<script type='text/javascript' src='playstate.js'></script>
+			<script type='text/javascript' src='controls.js'></script>
+			<script type='text/javascript' src='main.js'></script>
+			
+			<title> Rogue Javascript Clone </title> 
+		</head>
+		
+		<body>
+		
+			<div id="gamearea">
+				<div id="message"></div>
+				<div class="tile" id="player"></div>
+				<div id="stats"></div>
+				<div id="inventory"></div>
+			</div>
+			
+				<textarea id="textarea" style="position:absolute;top:0px;left:650px;height:390px;width:300px;"></textarea>
+			
+		<button onclick="alert(rooms[0].row1+' '+rooms[0].col1+' '+rooms[0].row2+' '+rooms[0].col2)" > ROOMS ? </button>
+		<button onclick="alert(whichRoom(player.x,player.y))">quale stanza</button>
+		</body>
+	</html>

@@ -1,0 +1,22 @@
+Idee di design per un mind control roguelike
+
+- Il protagonista deve sfuggire da una prigione di 25 piani,
+  quindi parte dal piano -25 e l'obbiettivo è arrivare al primo.
+- Il protagonista è uno psichico, può
+  * controllare i corpi degli altri
+  * leggere la mente
+  * instillare visioni
+  * spostare gli oggetti
+  
+Il protagonista potrebbe essere in coma e deve attraversare il labirinto
+generato dalla sua mente 
+Il labirinto è una grande biblioteca
+ispirazioni:
+Hotel di Dilbert
+Aleph di Borges
+Il paradiso di Cantor
+Non uno psichico, un matematico, uno scienziato, ma all'inizio non sa chi è
+si sveglia in un labirinto infinito.
+obbiettivo 1: capire chi è
+obbiettivo 2: uscire dal labirinto
+

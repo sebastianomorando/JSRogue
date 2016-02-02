@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+#gamearea {
+	position: relative;
+	height: 400px;
+	width: 640px;
+	background: black;
+}
+
+.tile {
+	position: absolute;
+	height: 16px;
+	width: 8px;
+	background: url(ascii.png);
+	background-position: 0px 0px;
+	z-index:0;
+}
+
+#message {
+	position: absolute;
+	height: 16px;
+	top: 0px;
+	left: 0px;
+}
+
+#stats {
+	position: absolute;
+	height: 16px;
+	bottom: 0px;
+	left: 0px;
+}
+
+#inventory {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 100;
+	width: 300px;
+}
+
+#player {
+	top: 64px;
+	left: 32px;
+	z-index: 1;
+	background-position: 0px -64px;
+}
